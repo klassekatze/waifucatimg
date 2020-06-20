@@ -1,0 +1,38 @@
+[
+	{
+		"name":"No Bindings",
+		"type":"Binding",
+		"start_cost":200,
+		"addition_cost":0,
+		"max_purchase":1,
+		"waifu_cost_multiplier":0.5,
+		"multiplier_start_tier":2,
+		"multiplier_end_tier":10,
+		"subitems":[],
+		"description":"None of your waifus will be affected by any of the effects common to all Company bindings…. you crazy bastard.
+		If you purchase and use a real binding method later, the discount will disappear and you will not be allowed to purchase more waifus or perks until you pay off the debt. You do not need to bind your previously-purchased waifus immediately or pay off the whole debt at once, but you may not make any new purchases if you have negative credits. Capturing any waifu without bindings will award you the standard capture value of her original tier, before this option’s purchase discount."
+	},
+	{
+		"name":"Shrouds of Power",
+		"type":"Binding",
+		"start_cost":200,
+		"addition_cost":50,
+		"max_purchase":9,
+		"subitems":[
+			"Golden: Light element. Angelic flowing white and gold robes",
+			"Fearful: Shadow element. Gothic black dress and/or leather",
+			"Volcanic: Fire element. Efreeti obsidian plate and fire opal",
+			"Frost: Ice element. Snow Queen chic, white-blue silk and lace",
+			"Desert: Land element. Brightly-colored silk, baggy pants, veils",
+			"Abyssal: Sea element. Fishscale bodysuit and mermaid alt-form",
+			"Storm: Sky element. Bikini, long coat, head wings, thigh-high winged boots",
+			"Jungle: Nature element. Nymphal green plant material and flowers",
+			"Cyber: Technology element. Mecha musume parts, “robot ear” headset, Tron lines"
+		],
+		"description":"These semi-sapient capes of pure elemental magic can create constructs as well as any Lantern Ring. When used to cocoon and tentacle a waifu, they infuse her with your will, adding her to an empathic and telepathic group mind centered on yourself. Your waifu must submit to this bind beforehand, whether by persuasion, coercion (including Company Lures), or force. This group mind operates on two levels: the higher, active, level allows everyone connected to participate in a telepathic chatroom, even between different multiverses. The deeper, passive, level gives the shroud-bound a full awareness of your activity and needs, so they may even respond to orders that you haven't consciously given yet. Your ability to read shroud-bound minds is not so intuitive. This is only a group mind, not a hive mind. All shroud-bound retain their individuality within the network. Any morality shifts that shroud-bound may develop are simply the result of close mental proximity to, and enforced empathy for, people with vastly different backgrounds and life experiences than their own.
+		A newly shroud-bound waifu’s clothes and makeup are absorbed into the cocoon and replaced with a new thematic style composed of solidified magic of the associated element. Existing enchanted gear or otherwise super outfits, such as Life Fibers, power armor, or magical girl uniforms, will be integrated into this elemental Cloak, as will any upgrades added after the fact. A shroud-bound waifu will always consider her Cloak her most comfortable outfit, but she may still dismiss it and wear normal outfits at any time. This power is an innate ability, granted by the Shroud, and does not require any magical talent. Additionally, shroud-bound waifus’ figures will slowly shift to fit your tastes.
+		Shroud-bound find their capabilities significantly boosted. In addition to the effects of all purchased Talents that do not otherwise apply to your waifus, the magic itself grants noticeable buffs to waifus’ innate abilities and an affinity for the associated magical element. You also get the affinity; if you have Dragon Musk and a matching element, that bonus will also stack with the Shroud’s element. (Diminishing returns apply.) Shroud-bound may learn to make their own tendrils and constructs like your own; waifus who already practice mystical arts, and the associated magical element in particular, will have an easier time. Shroud-bound cannot capture new waifus using their tendrils - you must bind them yourself. Both you and your Shroud-bound may also form wings out of your Shroud or their Cloaks, for personal flight, and can instantly teleport to the location of anyone else in the group mind, even if the teleporter’s and destination’s Cloaks are both dismissed. All together, these buffs add up to an effective +3 ranks to blue-star waifus, +2 ranks to copper-star waifus, and +1 rank to silver-star waifus.
+		Elements that normally oppose each other, such as light and darkness or nature and technology, are always complementary in this system."
+	}
+	
+]
