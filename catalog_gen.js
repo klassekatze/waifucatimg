@@ -136,7 +136,7 @@ var retrieve_intensity_budget_table = function(rules_filename)
 	var body = fs.readFileSync(rules_filename).toString();
 	var $ = cheerio.load(body);
 	var intensity_table = $(body.extract('pick a starting world','</table>')+'</table>');
-	console.log($('tr',intensity_table).size());
+	console.log('intens:'+$('tr',intensity_table).size());
 	var f = 0;
 	$('tr',intensity_table).each( function( index, element )
 	{
@@ -255,7 +255,7 @@ var construct_world_entries = function(sheet)
 		if(sheet[title])
 		{
 			var t = sheet[title].v;
-			if(t == 'Intensity')col_intensity=COLUMNALPHA[c];
+			if(t == 'Danger Rating')col_intensity=COLUMNALPHA[c];
 			else if(t == 'World')col_world=COLUMNALPHA[c];
 			else if(t == 'Condition')col_condition=COLUMNALPHA[c];
 		}
@@ -447,8 +447,9 @@ var retrieve_waifu_html = function(document_body_string)
 
 
 
-
+console.log('retrieve_intensity_budget_table');
 retrieve_intensity_budget_table('Waifu Catalog Rules, Controls, Perks.html');
+
 
 var workbook = XLSX.readFile('Waifu Catalog CYOA.xlsx');
 var non_waifu_sheets = ['Waifu Costs','World Ratings','DLC: Generic Exalted'];
