@@ -168,10 +168,13 @@
 
 	<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
 		<br><br>
-		<div class="container introduction hidden">
+		<div class="container introduction">
 		<!--INTRODUCTION-->
 		<p>Waifu Management Application</p>
+		<div class="INTRO_BLURB">
+		<h1><b>LOADING...</b><h1>
 		
+		</div>
 		<p></p>
 		
 		<!--<div class="mb-3 text-center">
@@ -232,7 +235,7 @@ Purchase: <span class="purchase">5</span><br>
 			</div>
 		</div>
 		
-		<div class="container waifu_selection">
+		<div class="container waifu_selection hidden">
 			<div class="mb-3 text-center">
 				<div class="card-deck mb-3 text-center WAIFU_CARDS">
 
@@ -397,6 +400,11 @@ $( document ).ready(function()
 		var query = $('.SEARCHBOX').val().toLowerCase();
 		console.log('q='+query);
 		//Spinner.show();
+		
+		//Spinner.show();
+		//$('.screenshader').removeClass('hidden');
+		
+		
 		$('.card').each( function( index, element )
 		{
 			
@@ -406,7 +414,9 @@ $( document ).ready(function()
 			
 			if(e.hasClass('nullcard'))e.removeClass('hidden');
 		});
+		
 		//Spinner.hide();
+		//$('.screenshader').addClass('hidden');
 	}
 	function registerSidebarAndSearch()
 	{
@@ -520,7 +530,7 @@ $( document ).ready(function()
 	{
 		loads -= 1;
 		console.log('loads='+loads);
-		if(loads <= 0)window.setTimeout(lc_fin,10);
+		if(loads <= 0)window.setTimeout(lc_fin,100);
 	}
 	var cachebust = function()
 	{
@@ -583,15 +593,18 @@ $( document ).ready(function()
 	var control_database = [];
 	
 	//var jqxhr = $.ajax( "example.php" )
+	
+	loads += 1; $('.INTRO_BLURB').load( "intro_blurb.html"+'?x='+cachebust(), lc );
+	
 	loads += 1; $('.SETTING_CARDS').load( "setting_cards.html"+'?x='+cachebust(), lc );
-	loads += 1; $.getJSON({url: 'catalog_database.json?x='+cachebust(),converters: JSON_CONVERTER}, function(json) { catalog_database = json; lc(); })
+	/*loads += 1; $.getJSON({url: 'catalog_database.json?x='+cachebust(),converters: JSON_CONVERTER}, function(json) { catalog_database = json; lc(); })
 	.fail( function(d, textStatus, error) {
         alert("getJSON failed, status: " + textStatus + ", error: "+error)
-    });
-	loads += 1; $.getJSON({url: 'control_database.json?x='+cachebust(),converters: JSON_CONVERTER}, function(json) { control_database = json; lc(); })
+    });*/
+	/*loads += 1; $.getJSON({url: 'control_database.json?x='+cachebust(),converters: JSON_CONVERTER}, function(json) { control_database = json; lc(); })
 	.fail( function(d, textStatus, error) {
         alert("getJSON failed, status: " + textStatus + ", error: "+error)
-    });
+    });*/
 	$('.WAIFU_CARDS').load( "waifu_cards.html"+'?x='+cachebust(), function(){ $('.waifu_selection_spinner').addClass('hidden'); buttonReReg(); } );
 	
 	function escapeRegExp(string) {
