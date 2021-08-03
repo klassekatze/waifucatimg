@@ -1017,12 +1017,12 @@
 			"doc": "Digital Devil DLC.xlsx"
 		},
 		{
-			"name": "Jeanne",
-			"tier": 6,
-			"art_url": "https://static.wikia.nocookie.net/highschooldxd/images/2/29/Jeanne_in_DxD_HERO.jpeg/revision/latest?cb=20180515143836",
-			"cat1": "High School DxD",
+			"name": "Jeane",
+			"tier": 3,
+			"art_url": "https://danbooru.donmai.us/posts/1168749?q=jeane_%28nmh%29",
+			"cat1": "No More Heroes",
 			"cat2": "",
-			"doc": "Waifu Catalog CYOA (Current_unstable ver.).xlsx"
+			"doc": "Digital Devil DLC.xlsx"
 		},
 		{
 			"name": "Holly Summers",
@@ -1075,7 +1075,7 @@
 		{
 			"name": "Alice Twilight",
 			"tier": 4,
-			"art_url": "https://danbooru.donmai.us/posts/1168718?q=no_more_heroes_2",
+			"art_url": "https://danbooru.donmai.us/posts/1168728?q=alice_twilight+",
 			"cat1": "No More Heroes",
 			"cat2": "",
 			"doc": "Digital Devil DLC.xlsx"
@@ -1083,41 +1083,137 @@
 		{
 			"name": "Chloe Walsh",
 			"tier": 5,
-			"art_url": "https://danbooru.donmai.us/posts/1168728?q=alice_twilight+",
+			"art_url": "https://danbooru.donmai.us/posts/1168718?q=no_more_heroes_2",
 			"cat1": "No More Heroes",
 			"cat2": "",
 			"doc": "Digital Devil DLC.xlsx"
 		},
 		{
-			"name": "Devil Summoner",
+			"name": "Kumiko Hatano",
+			"tier": 1,
+			"art_url": "",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Mary Kisaragi",
+			"tier": 2,
+			"art_url": "",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Rei Reiho",
 			"tier": 6,
 			"art_url": "",
 			"cat1": "Shin Megami Tensei",
-			"cat2": "",
+			"cat2": "Devil Summoner",
 			"doc": "Digital Devil DLC.xlsx"
 		},
 		{
-			"name": "Devil Summoner: Soul Hackers",
+			"name": "Mary",
+			"tier": 1,
+			"art_url": "https://danbooru.donmai.us/posts/2998071?q=soul_hackers+",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner: Soul Hackers",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Madam Ginko",
+			"tier": 3,
+			"art_url": "https://danbooru.donmai.us/posts/3065793?q=soul_hackers+",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner: Soul Hackers",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Hitomi Tono",
+			"tier": 7,
+			"art_url": "",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner: Soul Hackers",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Naomi",
+			"tier": 7,
+			"art_url": "https://danbooru.donmai.us/posts/2166984?q=soul_hackers+",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner: Soul Hackers",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Mayone",
+			"tier": 7,
+			"art_url": "",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner: Soul Hackers",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Sako Erika",
+			"tier": 7,
+			"art_url": "https://danbooru.donmai.us/posts/2391949?q=soul_hackers+",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Devil Summoner: Soul Hackers",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Nemissa",
 			"tier": 8,
 			"art_url": "https://danbooru.donmai.us/posts/2219288?q=nemissa",
 			"cat1": "Shin Megami Tensei",
-			"cat2": "",
+			"cat2": "Devil Summoner: Soul Hackers",
 			"doc": "Digital Devil DLC.xlsx"
 		},
 		{
-			"name": "Digital Devil Saga",
+			"name": "Jinana",
+			"tier": 6,
+			"art_url": "",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Digital Devil Saga",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Argilla",
+			"tier": 6,
+			"art_url": "https://gelbooru.com/index.php?page=post&s=view&id=1379904&tags=argilla",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Digital Devil Saga",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Sera",
+			"tier": 6,
+			"art_url": "https://danbooru.donmai.us/posts/221217?q=sera_%28dds%29",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "Digital Devil Saga",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Jenna Angel",
 			"tier": 7,
 			"art_url": "https://danbooru.donmai.us/posts/2879792?q=jenna_angel",
 			"cat1": "Shin Megami Tensei",
-			"cat2": "",
+			"cat2": "Digital Devil Saga",
 			"doc": "Digital Devil DLC.xlsx"
 		},
 		{
-			"name": "SMT3",
+			"name": "Yuko Takao",
+			"tier": 4,
+			"art_url": "",
+			"cat1": "Shin Megami Tensei",
+			"cat2": "SMT3",
+			"doc": "Digital Devil DLC.xlsx"
+		},
+		{
+			"name": "Chiaki Tahibana",
 			"tier": 6,
 			"art_url": "https://danbooru.donmai.us/posts/4212196?q=tachibana_chiaki_%28smt3%29",
 			"cat1": "Shin Megami Tensei",
-			"cat2": "",
+			"cat2": "SMT3",
 			"doc": "Digital Devil DLC.xlsx"
 		},
 		{
@@ -47764,6 +47860,14 @@
 			"name": "Ingvild Leviathan",
 			"tier": 6,
 			"art_url": "https://chan.sankakucomplex.com/post/show/18270715",
+			"cat1": "High School DxD",
+			"cat2": "",
+			"doc": "Waifu Catalog CYOA (Current_unstable ver.).xlsx"
+		},
+		{
+			"name": "Jeanne",
+			"tier": 6,
+			"art_url": "https://static.wikia.nocookie.net/highschooldxd/images/2/29/Jeanne_in_DxD_HERO.jpeg/revision/latest?cb=20180515143836",
 			"cat1": "High School DxD",
 			"cat2": "",
 			"doc": "Waifu Catalog CYOA (Current_unstable ver.).xlsx"
